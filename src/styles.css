@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.active { 
+  font-weight: bold; 
+}
+
+pre { 
+  font-size: 0.8em; 
+  max-height: 300px; 
+  overflow-y: auto; 
+}
